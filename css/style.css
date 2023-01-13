@@ -7,7 +7,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* login / sign up css */
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=email], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -123,5 +123,10 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+
+.padding{
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
