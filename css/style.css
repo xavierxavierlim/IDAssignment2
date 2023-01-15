@@ -217,3 +217,13 @@ span.psw {
   justify-content: space-around;
   padding: 30px;
 }
+
+.worldmap{
+  font-size: 200%;
+  text-align: center;
+}
+
+.map{
+  text-align: center;
+  padding: 2%;
+}
