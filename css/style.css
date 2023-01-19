@@ -218,6 +218,17 @@ span.psw {
   padding: 30px;
 }
 
+@media screen and (max-width: 420px) {
+  .flex{
+    flex-direction: column;
+  }
+}
+
+.indexstorenote{
+  text-align: center;
+  font-size: 70%;
+}
+
 /* styles for map */
 .worldmap{
   font-size: 200%;
