@@ -2,7 +2,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* add a line after navbar */
 .navbar{
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* lightblue bg color for signup.html */
+.lightblue-bg{
+  background-color: lightblue;
 }
 
 /* login / sign up css */
