@@ -249,3 +249,113 @@ span.psw {
   text-align: center;
   padding: 2%;
 }
+
+.dev1 {
+  margin: 0;
+  display: flex;
+  padding:2%;
+  margin-bottom: 2rem;
+}
+.dev1 h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+  color:black;
+}
+.dev1 p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color:black;
+}
+/* The first <div> inside the module is empty, but will be “filled” with a background image */
+.dev1 div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+/* The first div is given a “visual weight” of 1. As the second div is given a value of 2, it will always be twice as wide as the first by default */
+.dev1 div:last-child {
+  margin: 0.5rem;
+  flex: 2;
+}
+/* The last paragraph inside the div is styled to have no margin-bottom, to ensure that it does not contribute to the height of the element */
+.dev1 p:last-of-type {
+  margin-bottom: 0;
+}
+/* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
+.dev1:first-of-type div:first-child {
+  background-image: url("https://media.licdn.com/dms/image/C5603AQGNUzaJ61ci_w/profile-displayphoto-shrink_400_400/0/1659881684050?e=1678924800&v=beta&t=7CLd_g33ScmfrbFn3WcAzcBFaW7NBSoY7F3hRWT2USA");
+  background-repeat: no-repeat;
+  background-size: 38%;
+}
+/* Layout */
+.dev1:nth-child(odd) {
+  flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+  .dev1 div { flex: 1; }
+}
+@media all and (max-width: 414px) {
+  .dev1 { flex-direction: column; } 
+  .dev1:nth-child(odd){
+      flex-direction: column;
+  }
+  .dev1 div:first-child { min-height: 200px; }
+}
+
+.dev2 {
+  margin: 0;
+  display: flex;
+  padding:2%;
+  margin-bottom: 2rem;
+}
+.dev2 h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+  color:black;
+}
+.dev2 p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color:black;
+}
+/* The first <div> inside the module is empty, but will be “filled” with a background image */
+.dev2 div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+/* The first div is given a “visual weight” of 1. As the second div is given a value of 2, it will always be twice as wide as the first by default */
+.dev2 div:last-child {
+  margin: 0.5rem;
+  flex: 2;
+}
+/* The last paragraph inside the div is styled to have no margin-bottom, to ensure that it does not contribute to the height of the element */
+.dev2 p:last-of-type {
+  margin-bottom: 0;
+}
+/* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
+.dev2:first-of-type div:first-child {
+  background-image: url("../images/Mahiru\ Shiina.jpeg");
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+/* Layout */
+.dev2:nth-child(odd) {
+  flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+  .dev2 div { flex: 1; }
+}
+@media all and (max-width: 414px) {
+  .dev2 { flex-direction: column; } 
+  .dev2:nth-child(odd){
+      flex-direction: column;
+  }
+  .dev2 div:first-child { min-height: 200px; }
+}
