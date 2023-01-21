@@ -149,6 +149,10 @@ span.psw {
   transform: translate(-50%, -50%);
 }
 
+.virustext{
+  font-size: 150%;
+}
+
 
 /* styles for shop */
 .flip-card {
@@ -217,13 +221,14 @@ span.psw {
 }
 
 .flex{
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 30px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1200px) {
   .flex{
     flex-direction: column;
   }
