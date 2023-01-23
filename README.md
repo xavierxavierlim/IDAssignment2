@@ -24,7 +24,8 @@ The website that we have created is a Covid website that aims to educate users o
 # Technologies Used
 - HTML is used for define the structure of the website.
 - CSS is used to style the website (i.e., add colours, padding, etc.)
-- Javascript will be used for the API implementation and to add interactivity to the website.
+- Javascript will be used for the API implementation and to add interactivity to the website. As of now, there are only javascript featuers to the map and the login page.
+- Bootstrap is used for the navbar.
 - RestDB will be used to store user data when they login or sign up and also the points users earn from the quiz.
 
 # Testing
