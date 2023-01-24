@@ -304,9 +304,9 @@ img.logo {
 }
 /* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
 .dev2:first-of-type div:first-child {
-  background-image: url("../images/Mahiru\ Shiina.jpeg");
+  background-image: url("../images/Mahiru\ Shiina\ 1.jpg");
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 25%;
 }
 /* Layout */
 .dev2:nth-child(odd) {
