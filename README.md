@@ -40,5 +40,17 @@ Assure surgical mask - https://cf.shopee.sg/file/6deebdd8a3d233e47d61e2ade4945b6
 
 Fairprice hand soap - https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/13199308_XL1_20210527.jpg
 
+Reuseable face mask - https://media.wired.com/photos/626039816b4de137a5d36b8d/master/w_2400,h_1800,c_limit/Wake-ProTech-Reusable-Face-Mask-Gear.png
+
+Hand sanitiser - https://www.maddogprint.com.au/products/personalised-500ml-hand-sanitiser-gel-australia.jpg
+
+Disinfectant Wipes - https://www.palinternational.com/uploads/en/images/W200230-Pal-TX-Alcohol-Surface-Disinfectan.max-1500x1500.png
+
+Tissue - https://cloversoftandco.com/wp-content/uploads/2022/04/FT3COMPACT_ANGLE_OPEN.png
+
+Tissue Packet - https://shopee.sg/24-packets-x-Beautex-Tissue-Paper-i.14804973.135399142
+
+Face Shield - https://images.squarespace-cdn.com/content/v1/5d3178f5c443690001caace9/1590479511414-TBL0QRS40G5X1GMRL6MV/F-SHIELD.jpg?format=750w
+
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
 
