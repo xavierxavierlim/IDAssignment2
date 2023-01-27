@@ -323,3 +323,26 @@ img.logo {
   }
   .dev2 div:first-child { min-height: 200px; }
 }
+
+
+
+/* css code for learn page */
+body {
+  font-family: Arial, sans-serif;
+}
+h1, h2{
+  text-align: center;
+}
+#quiz-form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
