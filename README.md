@@ -34,6 +34,8 @@ Up to date, most of the features have not been implemented yet. The quiz page ha
 # Credits
 Xavier - https://media.licdn.com/dms/image/C5603AQGNUzaJ61ci_w/profile-displayphoto-shrink_400_400/0/1659881684050?e=1680134400&v=beta&t=7Yez7E1UhxR5fsZYI7HndV31-4lQozx3AV05sxDvV1k
 
+Virus - https://www.tuvsud.com/-/media/global/images/home-page/ss-1161779041-covid19.jpg?extension=webp&h=366&w=1280&mw=1280&la=en-ID&hash=71759BBEB1B2A063A565D250A3B8F458
+
 Dettol hand sanitiser - https://gphb01pdazurefileshare.blob.core.windows.net/sys-master-hybris-media/h38/h54/16238771961886/130208-dettol-hand-sanitiser-orignal-50ml-1-800Wx800H
 
 Assure surgical mask - https://cf.shopee.sg/file/6deebdd8a3d233e47d61e2ade4945b6a
