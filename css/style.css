@@ -44,10 +44,6 @@ img.logo {
   border-radius: 50%;
 }
 
-.container {
-  padding: 16px;
-}
-
 .modal {
   display: none; /* hide by default */
   position: fixed; 

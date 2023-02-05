@@ -271,6 +271,8 @@ $(document).ready(function () {
                         $(".dots").hide();
                         
                         $("#add-contact-form").trigger("reset");
+
+                        
                         
                     }
                 };
@@ -280,6 +282,7 @@ $(document).ready(function () {
                     
                     $("#account-submit").prop("disabled", false);
                     
+                    window.location = "../html/home.html";
                     //@TODO update frontend UI 
                     // $("#add-update-msg").show()
 
@@ -289,56 +292,4 @@ $(document).ready(function () {
             }
         })
     })
-
-    // function getContacts(limit = null, all = true) {
-
-    //     //[STEP 7]: Create our AJAX settings
-    //     let settings = {
-    //         "async": true,
-    //         "crossDomain": true,
-    //         "url": "https://interactivedev-0fcf.restdb.io/rest/accounts",
-    //         "method": "GET", //[cher] we will use GET to retrieve info
-    //         "headers": {
-    //           "content-type": "application/json",
-    //           "x-apikey": APIKEY,
-    //           "cache-control": "no-cache"
-    //         },
-    //     }
-
-    //     //[STEP 8]: Make our AJAX calls
-    //     //Once we get the response, we modify our table content by creating the content internally. We run a loop to continously add on data
-    //     //RESTDb/NoSql always adds in a unique id for each data, we tap on it to have our data and place it into our links 
-
-    //     $.ajax(settings).done(function (response) {
-      
-    //         let content = "";
-      
-    //         for (var i = 0; i < response.length && i < limit; i++) {
-
-    //             content = `${content}
-    //             <tr id='${response[i]._id}'>
-    //             <td>${response[i].name}</td>
-    //             <td>${response[i].username}</td>
-    //             <td>${response[i].password}</td>
-    //             <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td>
-    //             <td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-Name='${response[i].name}' data-Username='${response[i].username}' data-Password='${response[i].password}'>Update</a></td></tr>`;
-    //         }    
-        
-    //         //[STEP 9]: Update our HTML content
-    //         //let's dump the content into our table body
-    //         $("#contact-list tbody").html(content);
-
-    //         $("#total-contacts").html(response.length);
-
-    //         $(".dots").hide();
-
-    //         alert("You have succesfully registered for an account");
-    //     });
-    // }
 })
-
-               
-
-
-
-
