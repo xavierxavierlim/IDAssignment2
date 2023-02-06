@@ -41,6 +41,7 @@
             }
         }
     </style>
+    <script src="..//js/welcome.js"></script>
 </head>
 
 <body>
@@ -99,8 +100,7 @@
     <div class="box">
         <img src="../images/virus.jpg" alt="Covid19" class="boximg">
         <div class="centered">
-            <p class="virustext">
-                Welcome [name]
+            <p class="virustext" id="displayData">
             </p>
             
         </div>
@@ -138,7 +138,7 @@
                   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
                   chart.draw(data, options);
                 }
-                </script>
+            </script>
         </div>
 
         <div class="covidgraph">
