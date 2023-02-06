@@ -259,7 +259,7 @@ img.logo {
 @media all and (max-width: 600px) {
   .dev1 div { flex: 1; }
 }
-@media all and (max-width: 414px) {
+@media all and (max-width: 420px) {
   .dev1 { flex-direction: column; } 
   .dev1:nth-child(odd){
       flex-direction: column;
@@ -314,7 +314,7 @@ img.logo {
 @media all and (max-width: 600px) {
   .dev2 div { flex: 1; }
 }
-@media all and (max-width: 414px) {
+@media all and (max-width: 420px) {
   .dev2 { flex-direction: column; } 
   .dev2:nth-child(odd){
       flex-direction: column;
@@ -407,7 +407,7 @@ footer{
 {
   padding: 2%;
 }
-@media all and (max-width: 414px) {
+@media all and (max-width: 420px) {
   .medicalresearch
   {
       align-items: center;
