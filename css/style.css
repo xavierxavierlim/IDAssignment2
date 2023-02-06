@@ -101,6 +101,7 @@ img.logo {
 }
 .boximg{
   width: 100%;
+  filter:brightness(50%);
 }
 .centered {
   position: absolute;
