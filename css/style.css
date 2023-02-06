@@ -44,10 +44,6 @@ img.logo {
   border-radius: 50%;
 }
 
-.container {
-  padding: 16px;
-}
-
 .modal {
   display: none; /* hide by default */
   position: fixed; 
@@ -382,6 +378,7 @@ footer{
   width:30%;
   display: block;
   margin: auto;
+  padding: 30px;
 }   
 /* .medicalresearch >img{
   width: 50%;

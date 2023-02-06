@@ -21,6 +21,9 @@ The website that we have created is a Covid website that aims to educate users o
 
 - The learn page contains videos that users can watch to learn about the Covid-19 virus and how to protect themselves and their loves ones from the virus. There will also be a quiz where they can attempt and the more questions they get correct, the more points they will get and the points can be used to get a discount in the shop. For example, 1 point is equal to 1 cent so if they have 50 points, they can get a 50-cent discount on any item in the shop. This discount applies to discounted items as well. This way, not only do they get to learn about the Covid-19 virus, they are also more likely to buy items from the shop as the points they earned from the quiz can be used to get a discount in the shop.
 
+# Github URL
+https://github.com/xavierxavierlim/IDAssignment2.git
+
 # Technologies Used
 - HTML is used for define the structure of the website.
 - CSS is used to style the website (i.e., add colours, padding, etc.)
@@ -38,21 +41,21 @@ Virus - https://www.tuvsud.com/-/media/global/images/home-page/ss-1161779041-cov
 
 Dettol hand sanitiser - https://gphb01pdazurefileshare.blob.core.windows.net/sys-master-hybris-media/h38/h54/16238771961886/130208-dettol-hand-sanitiser-orignal-50ml-1-800Wx800H
 
-Assure surgical mask - https://cf.shopee.sg/file/6deebdd8a3d233e47d61e2ade4945b6a
+Surgical mask box - hhttps://img.lovepik.com/desgin_photo/40189/7936_list.jpg
 
-Fairprice hand soap - https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/13199308_XL1_20210527.jpg
+Hand soap - https://i5.walmartimages.com/asr/12ef0a67-9cbc-4797-82fb-17e557177198.8b1a04808123eff50b836a884acc4413.jpeg
 
-Reuseable face mask - https://media.wired.com/photos/626039816b4de137a5d36b8d/master/w_2400,h_1800,c_limit/Wake-ProTech-Reusable-Face-Mask-Gear.png
+Reuseable face mask - https://media.wired.com/photos/61f06079e365ac4c3753094e/master/w_1920%2Cc_limit/Gear-Amston-1808-Mask.jpg
 
 Hand sanitiser - https://www.maddogprint.com.au/products/personalised-500ml-hand-sanitiser-gel-australia.jpg
 
 Disinfectant Wipes - https://www.palinternational.com/uploads/en/images/W200230-Pal-TX-Alcohol-Surface-Disinfectan.max-1500x1500.png
 
-Tissue - https://cloversoftandco.com/wp-content/uploads/2022/04/FT3COMPACT_ANGLE_OPEN.png
+Tissue Box - https://www.premiertissues.com/images/homepage/banner_1.png
 
-Tissue Packet - https://shopee.sg/24-packets-x-Beautex-Tissue-Paper-i.14804973.135399142
+Tissue Packet - https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/460569_RXL1_20210308.jpg
 
-Face Shield - https://images.squarespace-cdn.com/content/v1/5d3178f5c443690001caace9/1590479511414-TBL0QRS40G5X1GMRL6MV/F-SHIELD.jpg?format=750w
+Face Shield - https://vitalshield.g.shopcadacdn.com/sites/files/vitalshield/productimg/202208/normalfsproductimage.jpg
 
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
 
