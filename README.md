@@ -21,6 +21,9 @@ The website that we have created is a Covid website that aims to educate users o
 
 - The learn page contains videos that users can watch to learn about the Covid-19 virus and how to protect themselves and their loves ones from the virus. There will also be a quiz where they can attempt and the more questions they get correct, the more points they will get and the points can be used to get a discount in the shop. For example, 1 point is equal to 1 cent so if they have 50 points, they can get a 50-cent discount on any item in the shop. This discount applies to discounted items as well. This way, not only do they get to learn about the Covid-19 virus, they are also more likely to buy items from the shop as the points they earned from the quiz can be used to get a discount in the shop.
 
+# Github URL
+https://github.com/xavierxavierlim/IDAssignment2.git
+
 # Technologies Used
 - HTML is used for define the structure of the website.
 - CSS is used to style the website (i.e., add colours, padding, etc.)
