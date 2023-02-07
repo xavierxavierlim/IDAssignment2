@@ -1,6 +1,6 @@
 // Get the modal
 var modal = document.getElementById('login');
-                
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -56,9 +56,13 @@ $(document).ready(function () {
                     exists = true;
                     $(".dots").hide();
                     window.location = "../html/home.html";
-                    break;
+                    var nnname = response[i].Name;
+                    window.nnname = response[i].Name;
+                    sessionStorage.setItem("Name",nnname);
                 }
             }
+
+            
 
             if (exists == false){
                 $(".dots").hide();
