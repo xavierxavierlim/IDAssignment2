@@ -1,7 +1,7 @@
 var loginname = sessionStorage.getItem("Name");
 
 function displayname(){
-  document.getElementById("displayData").innerHTML = loginname
+  document.getElementById("displayData").innerHTML = "Welcome " + loginname
 }
 
 window.onload = displayname;
