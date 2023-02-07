@@ -424,9 +424,13 @@ footer{
       text-align: center;
   }
 }
+
+
+
 .fa-solid{
   color:#333;
 }
+
 .servicetext{
   margin: 0 2% 0 2%;
 }
@@ -442,6 +446,7 @@ footer{
 .ourservicetitletext{
   border-bottom: 3px solid black;
   margin: 1% 35% 0 35%;
+  font-family: 'Saira Condensed', sans-serif;
 }
 .ourservicetitle{
   padding: 2%;
@@ -449,4 +454,13 @@ footer{
 .logout{
   margin:2% 2% 0 0;
   color:black;
+}
+
+.indexbuttons{
+  color:#525960;
+  font-family: 'Saira Condensed', sans-serif;
+}
+.indexbuttons:hover
+{
+  color: #0b0c0d;
 }
