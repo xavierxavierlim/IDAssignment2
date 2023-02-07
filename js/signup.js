@@ -281,13 +281,15 @@ $(document).ready(function () {
                     console.log(response);
                     
                     $("#account-submit").prop("disabled", false);
-                    
                     window.location = "../html/home.html";
                     //@TODO update frontend UI 
                     // $("#add-update-msg").show()
 
                     //update our table 
                     //getContacts();
+                    var signinname = name
+                    sessionStorage.setItem("Name",signinname);
+                    console.log(signinname);
                 });    
             }
         })
