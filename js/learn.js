@@ -7,5 +7,7 @@ function checkAnswers() {
         score++;
       }
     }
+    var addpoints = sessionStorage.getItem("Points");
+    addpoints += score;
     alert("You scored " + score + " out of " + answers.length);
 }

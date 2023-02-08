@@ -47,6 +47,20 @@ $(document).ready(function () {
             },
         };
 
+        // // Retrieve the points for the matching user
+        // let userId = response[i]._id;
+        // let pointSettings = {
+        //     "async": true,
+        //     "crossDomain": true,
+        //     "url": `https://interactivedev-0fcf.restdb.io/rest/points/${userId}`,
+        //     "method": "GET",
+        //     "headers": {
+        //         "content-type": "application/json",
+        //         "x-apikey": APIKEY,
+        //         "cache-control": "no-cache"
+        //     },
+        // };
+
         $.ajax(settings).done(function (response) {
             // Check if username already exists
             
@@ -57,12 +71,25 @@ $(document).ready(function () {
                     $(".dots").hide();
                     window.location = "../html/home.html";
                     var nnname = response[i].Name;
+                    var points = response[i].Points;
+                    window.points = response[i].Points;
                     window.nnname = response[i].Name;
+                    sessionStorage.setItem("Points",points);
                     sessionStorage.setItem("Name",nnname);
+                    console.log(points);
                 }
             }
 
-            
+
+
+            // $.ajax(pointSettings).done(function (pointResponse) {
+            //     let points = pointResponse.Points;
+            //     // Do something with the points
+            //     window.loginpoints = points;
+            //     sessionStorage.setItem("Points",points);
+            //     console.log("Yes")
+            //     console.log(points);
+            // });
 
             if (exists == false){
                 $(".dots").hide();
