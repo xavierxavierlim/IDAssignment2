@@ -12,4 +12,6 @@ $("#quiz-submit").on("click", function (e) {
     var addpoints = sessionStorage.getItem("Points");
     addpoints += score;
     alert("You scored " + score + " out of " + answers.length);
+
+	$("input[type='radio']:checked").prop("checked", false);
 })
