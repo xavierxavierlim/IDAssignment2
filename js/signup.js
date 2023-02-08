@@ -250,7 +250,7 @@ $(document).ready(function () {
                 let jsondata = {
                     "Name": name,
                     "Username": username,
-                    "Password": password,
+                    "Password": password
                 };
                 jsondata.Points = 0;
 
