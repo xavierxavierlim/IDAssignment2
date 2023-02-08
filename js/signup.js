@@ -252,6 +252,7 @@ $(document).ready(function () {
                     "Username": username,
                     "Password": password,
                 };
+                jsondata.Points = 0;
 
                 let settings = {
                     "async": true,
