@@ -1,12 +1,9 @@
-
-
-
 $(document).ready(function () {
 
     // Get the modal
     var modal = document.getElementById('login');
 
-    // When the user clicks anywhere outside of the modal, close it
+    // close the modal when user clicks anywhere on it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
@@ -14,27 +11,25 @@ $(document).ready(function () {
     }
 
     const APIKEY = "63ddca833bc6b255ed0c4632";
-    //getContacts();
-    //$("#update-contact-container").hide();
-    // $("#add-update-msg").hide();
-    $(".dots").hide();
+
+    $(".dots").hide(); // hide the lottie
 
     $("#account-login").on("click", function (e) {
         e.preventDefault();
 
-        $(".dots").show();
-        let username = $("#username").val();
-        let password = $("#password").val();
+        $(".dots").show(); // show the lottie 
+        let username = $("#username").val(); // take the value of username input 
+        let password = $("#password").val(); // take the value of password input 
 
         // Input validation
-        if (username == "") {
+        if (username == "") { // check if username input is blank
             alert("Username cannot be empty");
-            $(".dots").hide();
+            $(".dots").hide(); // hide the lottie
             return;
         }
-        if (password == "") {
+        if (password == "") { // check if the password input is blank
             alert("Password cannot be empty");
-            $(".dots").hide();
+            $(".dots").hide(); // hide the lottie
             return;
         }
 
@@ -43,27 +38,13 @@ $(document).ready(function () {
             "async": true,
             "crossDomain": true,
             "url": "https://interactivedev-0fcf.restdb.io/rest/accounts",
-            "method": "GET",
-            "headers": {
+            "method": "GET", // get the data from the database
+            "headers": { 
                 "content-type": "application/json",
                 "x-apikey": APIKEY,
                 "cache-control": "no-cache"
             },
         };
-
-        // // Retrieve the points for the matching user
-        // let userId = response[i]._id;
-        // let pointSettings = {
-        //     "async": true,
-        //     "crossDomain": true,
-        //     "url": `https://interactivedev-0fcf.restdb.io/rest/points/${userId}`,
-        //     "method": "GET",
-        //     "headers": {
-        //         "content-type": "application/json",
-        //         "x-apikey": APIKEY,
-        //         "cache-control": "no-cache"
-        //     },
-        // };
 
         $.ajax(settings).done(function (response) {
             // Check if username already exists
@@ -71,9 +52,9 @@ $(document).ready(function () {
             let exists = false;
             for (var i = 0; i < response.length; i++) {
                 if (response[i].Username === username && response[i].Password === password) {
-                    exists = true;
-                    $(".dots").hide();
-                    window.location = "../html/home.html";
+                    exists = true; // if username and password match with the database 
+                    $(".dots").hide(); // hide the lottie 
+                    window.location = "../html/home.html"; // direct user to home page
                     var nnname = response[i].Name;
                     var points = response[i].Points;
                     window.points = response[i].Points;
@@ -84,23 +65,12 @@ $(document).ready(function () {
                 }
             }
 
-
-
-            // $.ajax(pointSettings).done(function (pointResponse) {
-            //     let points = pointResponse.Points;
-            //     // Do something with the points
-            //     window.loginpoints = points;
-            //     sessionStorage.setItem("Points",points);
-            //     console.log("Yes")
-            //     console.log(points);
-            // });
-
-            if (exists == false){
-                $(".dots").hide();
+            if (exists == false){ // if username and password dont match with database
+                $(".dots").hide(); // hide the lottie 
                 alert("Incorrect username or password");
-                $("#username").val("");
-                $("#password").val("");
-                return;
+                $("#username").val(""); // after submit empty out the boxes
+                $("#password").val(""); // after submit empty out the boxes
+                return; 
             }
         })
     })  
