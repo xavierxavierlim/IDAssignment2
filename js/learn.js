@@ -5,23 +5,23 @@ $(document).ready(function() {
       const APIKEY = "63ddca833bc6b255ed0c4632";
   
       var score = 0;
-      var answers = ["d", "a", "d", "d", "a", "a", "d", "c", "d", "b"];
-      var inputs = document.querySelectorAll("input[type='radio']:checked");
+      var answers = ["d", "a", "d", "d", "a", "a", "d", "c", "d", "b"]; // correct answers 
+      var inputs = document.querySelectorAll("input[type='radio']:checked"); // retrieve the checked radio options
       for (var i = 0; i < inputs.length; i++) {
-      if (inputs[i].value == answers[i]) {
-          score++;
+      if (inputs[i].value == answers[i]) { // check if the input is same as the correct answers 
+        score++; // if correct add 1
       }
       }
-      alert("You scored " + score + " out of " + answers.length);
+      alert("You scored " + score + " out of " + answers.length);  // display an alert to show the points
   
-      $("input[type='radio']:checked").prop("checked", false);
+      $("input[type='radio']:checked").prop("checked", false); // after submit reset all the options
 
 
       var retrieveSettings = {
       "async": true,
       "crossDomain": true,
       "url": "https://interactivedev-0fcf.restdb.io/rest/accounts",
-      "method": "GET",
+      "method": "GET", // get the data from the database
       "headers": {
           "content-type": "application/json",
           "x-apikey": APIKEY,
@@ -31,9 +31,9 @@ $(document).ready(function() {
   
       $.ajax(retrieveSettings).done(function (response) {
       // Parse the response to get the necessary values for "Name", "Username", and "Password"
-          let name = response[0].Name;
-          let username = response[0].Username;
-          let password = response[0].Password;
+          let name = response[0].Name; // retrieve the name 
+          let username = response[0].Username; // retrieve the username 
+          let password = response[0].Password; // retrieve password
       
           let jsondata = {
               "Name": name,
@@ -46,7 +46,7 @@ $(document).ready(function() {
               "async": true,
               "crossDomain": true,
               "url": `https://interactivedev-0fcf.restdb.io/rest/accounts/${id}`,
-              "method": "PUT",
+              "method": "PUT", // put the data into the database
               "headers": {
               "content-type": "application/json",
               "x-apikey": APIKEY,
