@@ -34,14 +34,20 @@ https://github.com/xavierxavierlim/IDAssignment2.git
 - HTML is used for define the structure of the website.
 - CSS is used to style the website (i.e., add colours, padding, etc.)
 - Javascript will be used for the API implementation and to add interactivity to the website. As of now, there are only javascript featuers to the map and the login page.
-- JQuery will be used for Document Object Model (DOM) manipulation
+- JQuery will be used for Document Object Model (DOM) manipulation.
 - Bootstrap is used for the navbar.
+- AJAX is used to make requests asynchronously.
 - RestDB will be used to store user data when they login or sign up and also the points users earn from the quiz.
 
 # Testing
-Up to date, most of the features have not been implemented yet. The quiz page has not been implemented yet and the map which is supposed to be clicked on to display the number of Covid-19 cases for the area clicked on is only halfway done. The buttons on the navbar to direct users to the respective pages are working. However, other features such as the applying discount to items through usage points, API to store user data and points and form validation have yet to be implemented as of now.
+All the features are working, except for the points feature. Validation is done for the login and sign up form such that if users login with a wrong username, non-existent username or wrong password or sign up with a username that already exists, an alert will be sent to them and they will not be allowed to login or sign up. Additionally, users cannot leave any field blank as well or an alert will pop up telling themm that they cannot leave the field blank. If they log in or sign up successfully, they will be directed to a home page.
 
-# Credits
+# Credits - Content
+
+- Ong Yi description (developers page): https://www.linkedin.com/in/ong-yi-405214238/?originalSubdomain=sg
+- Xavier description (developers page): https://www.linkedin.com/in/xavierlim05/
+
+# Credits - Media
 Xavier - https://media.licdn.com/dms/image/C5603AQGNUzaJ61ci_w/profile-displayphoto-shrink_400_400/0/1659881684050?e=1680134400&v=beta&t=7Yez7E1UhxR5fsZYI7HndV31-4lQozx3AV05sxDvV1k
 
 Virus - https://www.tuvsud.com/-/media/global/images/home-page/ss-1161779041-covid19.jpg?extension=webp&h=366&w=1280&mw=1280&la=en-ID&hash=71759BBEB1B2A063A565D250A3B8F458
@@ -65,4 +71,14 @@ Tissue Packet - https://media.nedigital.sg/fairprice/fpol/media/images/product/X
 Face Shield - https://vitalshield.g.shopcadacdn.com/sites/files/vitalshield/productimg/202208/normalfsproductimage.jpg
 
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
+
+# Credits - Acknowledgements
+- Login modal: https://www.w3schools.com/howto/howto_css_login_form.asp
+- Point system: https://shopee.sg/
+- Layout of front page: https://platomedical.com/
+- Tic Tac Toe: https://dev.to/javascriptacademy/create-a-simple-tic-tac-toe-game-using-html-css-javascript-i4k
+- Map: https://youtu.be/OySigNMXOZU
+- 
+
+
 
