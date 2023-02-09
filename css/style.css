@@ -5,6 +5,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   border-bottom: 2px solid black;
 }
 
+h1, h2{
+  text-align: center;
+}
+
 /* lightblue bg color for signup.html */
 .lightblue-bg{
   background-color: lightblue;
@@ -44,6 +48,7 @@ img.logo {
   border-radius: 50%;
 }
 
+/* login modal */
 .modal {
   display: none; /* hide by default */
   position: fixed; 
@@ -74,6 +79,7 @@ img.logo {
   font-size: 50px;
 }
 
+/* additional styles when hovering above close button */
 .close:hover {
   color: red;
   cursor: pointer;
@@ -90,30 +96,34 @@ img.logo {
   to {transform: scale(1)}
 }
 
+/* adds padding to only left and right */
 .padding{
   padding-left: 1%;
   padding-right: 1%;
 }
+
 .box{
   position: relative;
   text-align: center;
   color: white;
 }
+
 .boximg{
   width: 100%;
-  filter:brightness(50%);
+  filter:brightness(50%); /* make brightness of image dimmer so that words can stand out more */
 }
+
+/* center the element */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* center element */
 }
 
 .virustext{
   font-size: 250%;
 }
-
 
 /* styles for shop */
 .flip-card {
@@ -128,21 +138,21 @@ img.logo {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 0.6s; 
+  transform-style: preserve-3d; /* create a 3d effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadows the box */
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); /* rotate card */
 }
 
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
+  backface-visibility: hidden; /*back-facing surface of the element is made invisible (create 3d effect)  */
 }
 
 .flip-card-front {
@@ -153,9 +163,10 @@ img.logo {
 .flip-card-back {
   background-color: #3f3f3f;
   color: white;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); /* make card rotate */
 }
 
+/* style the elements with the button class */
 .button {
   border: none;
   color: white;
@@ -165,8 +176,8 @@ img.logo {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+  transition-duration: 0.4s; /* time it takes for transition */
+  cursor: pointer; /* the hand */
   width: 50%;
   }
 
@@ -176,11 +187,13 @@ img.logo {
   border: 2px solid #2f2f2f;
 }
 
+/* change style for button when it is hovered */
 .button1:hover {
   background-color:#202020 ;
   color: white;
 }
 
+/* flexbox */
 .flex{
   text-align: center;
   display: flex;
@@ -190,11 +203,7 @@ img.logo {
   padding: 2%;
 }
 
-@media screen and (max-width: 1200px) {
-  .flex{
-    flex-direction: column;
-  }
-}
+
 
 .indexstorenote{
   text-align: center;
@@ -256,7 +265,7 @@ img.logo {
   flex-direction: row;
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
   .dev1 div { flex: 1; }
 }
 @media all and (max-width: 420px) {
@@ -265,7 +274,7 @@ img.logo {
       flex-direction: column;
   }
   .dev1 div:first-child { min-height: 200px; }
-}
+} */
 
 .dev2 {
   margin: 0;
@@ -287,7 +296,7 @@ img.logo {
 }
 /* The first <div> inside the module is empty, but will be “filled” with a background image */
 .dev2 div:first-child {
-  flex: 1;
+  flex: 1; /* full space given to the element */
   background-size: cover;
   background-position: center;
 }
@@ -311,7 +320,7 @@ img.logo {
   flex-direction: row;
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
   .dev2 div { flex: 1; }
 }
 @media all and (max-width: 420px) {
@@ -320,17 +329,14 @@ img.logo {
       flex-direction: column;
   }
   .dev2 div:first-child { min-height: 200px; }
-}
-
+} */
 
 
 /* css code for learn page */
 body {
   font-family: Arial, sans-serif;
 }
-h1, h2{
-  text-align: center;
-}
+
 #quiz-form {
   width: 80%;
   margin: 0 auto;
@@ -365,18 +371,23 @@ footer{
   list-style: none;
   text-align: left;
 }
+
+/* flexbox */
 .footercontact{
   display: flex;
   justify-content: space-around;
 }
+
+/* flexbox */
 .medicalresearch{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2% 5% 0 5%;
+  margin: 2% 5% 0 5%; /* top right bottom left */
 }
+
 .medicalresearchimg{
-  width:30%;
+  width: 30%;
   display: block;
   margin: auto;
   padding: 30px;
@@ -385,7 +396,7 @@ footer{
   width: 50%;
 } */
 .medicalresearchtext{
-  margin: 0 3% 0 3%;
+  margin: 0 3% 0 3%; /* top right bottom left */
   text-align: center;
 }
 /* .medicalresearch > p{
@@ -407,7 +418,7 @@ footer{
 {
   padding: 2%;
 }
-@media all and (max-width: 420px) {
+/* @media all and (max-width: 420px) {
   .medicalresearch
   {
       align-items: center;
@@ -423,7 +434,7 @@ footer{
   .indiservicesubheader{
       text-align: center;
   }
-}
+} */
 
 
 
@@ -432,25 +443,31 @@ footer{
 }
 
 .servicetext{
-  margin: 0 2% 0 2%;
+  margin: 0 2% 0 2%; /* top right bottom left */
 }
+
+/* flexbox */
 .ourservice{
   padding: 2%;
   display: flex;
   justify-content: center;
 }
+
 .indiservice{
   padding: 2%;
   font-size: 90%;
 }
+
 .ourservicetitletext{
   border-bottom: 3px solid black;
   margin: 1% 35% 0 35%;
   font-family: 'Saira Condensed', sans-serif;
 }
+
 .ourservicetitle{
   padding: 2%;
 }
+
 .logout{
   margin:2% 2% 0 0;
   color:black;
@@ -460,15 +477,18 @@ footer{
   color:#525960;
   font-family: 'Saira Condensed', sans-serif;
 }
+
 .indexbuttons:hover
 {
   color: #0b0c0d;
 }
 
+/* flexbox */
 .coviddata{
   display: flex;
   justify-content: space-around;
 }
+
 .covidgraph{
   justify-self: center;
   margin-top: 5%;
@@ -479,7 +499,7 @@ footer{
   font-family: 'Saira Condensed', sans-serif;
 }
 
-@media (min-width: 550px) {
+/* @media (min-width: 550px) {
   #piechart {
       width: 100%;
       height: 100%;
@@ -494,7 +514,7 @@ footer{
   .coviddata{
       flex-direction: column;
   }
-}
+} */
 
 .centered{
   font-family: 'Righteous', cursive;
@@ -520,7 +540,7 @@ footer{
   border-radius: 5px;
   overflow: hidden;
   font-weight: 500;
-  transform: translateX(0);
+  transform: translateX(0); /* set the element so that it will transform when hovered */
   transition: 0.3s;
   margin: 2%;
 }
@@ -528,12 +548,12 @@ footer{
 .whocountry:hover{
   background: #1a1c1e;
   cursor:pointer;
-  transform: translateX(10px);
+  transform: translateX(10px); /* move when being hovered */
   font-weight: bold;
 }
 
 .whocountry:active{
-  background: #070808;
+  background: #070808; /* change color after clicking */
 }
 
 .whocountrytext{
@@ -571,19 +591,19 @@ footer{
   font-size: 200%;
 }
 
-@media all and (max-width: 1200px) {
+/* @media all and (max-width: 1200px) {
   .whoasia{
       flex-direction: column;
   }
   .whoflex{
       flex-direction: column;
   }
-}
+} */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 .gamecontainer {
   margin: 0 auto;
@@ -622,4 +642,80 @@ footer{
 #reset{
   padding: 2%;
 }
+
+
+
+
+@media all and (max-width: 600px) {
+  .dev2 div { flex: 1; }
+}
+@media all and (max-width: 420px) {
+  .dev2 { flex-direction: column; } 
+  .dev2:nth-child(odd){
+      flex-direction: column;
+  }
+  .dev2 div:first-child { min-height: 200px; }
+}
+
+@media all and (max-width: 1200px) {
+  .whoasia{
+      flex-direction: column;
+  }
+  .whoflex{
+      flex-direction: column;
+  }
+}
+
+@media (min-width: 550px) {
+  #piechart {
+      width: 100%;
+      height: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  #piechart {
+      width: 550px;
+      height: 400px;
+  }
+  .coviddata{
+      flex-direction: column;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .medicalresearch
+  {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
+  .footercontact{
+      flex-direction: column;
+  }
+  .ourservice{
+      flex-direction: column;
+  }
+  .indiservicesubheader{
+      text-align: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .dev1 div { flex: 1; }
+}
+@media all and (max-width: 420px) {
+  .dev1 { flex-direction: column; } 
+  .dev1:nth-child(odd){
+      flex-direction: column;
+  }
+  .dev1 div:first-child { min-height: 200px; }
+}
+
+@media screen and (max-width: 1200px) {
+  .flex{
+    flex-direction: column;
+  }
+}
+
 
