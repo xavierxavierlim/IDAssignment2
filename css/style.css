@@ -495,3 +495,88 @@ footer{
       flex-direction: column;
   }
 }
+
+.centered{
+  font-family: 'Righteous', cursive;
+}
+
+.nworldmap{
+  padding: 2%;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.worldmap{
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.whocountry{
+  display: inline-flex;
+  height:50px;
+  padding: 0;
+  background: #292c30;
+  color: #a0aea7;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-weight: 500;
+  transform: translateX(0);
+  transition: 0.3s;
+  margin: 2%;
+}
+
+.whocountry:hover{
+  background: #1a1c1e;
+  cursor:pointer;
+  transform: translateX(10px);
+  font-weight: bold;
+}
+
+.whocountry:active{
+  background: #070808;
+}
+
+.whocountrytext{
+  text-align: center;
+  align-self: center;
+  font-size: 1.5em;
+  padding: 0 24px;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.whocountryicon{
+  display:inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height:100%;
+  background: rgba(0,0,0,0.08);
+}
+
+.whoasia{
+  flex-direction: row;
+  text-align: center;
+  padding: 0.5%;
+  justify-content: space-between;
+  align-items: center;
+  display: center;
+}
+
+.whoflex{
+  display: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.virustext{
+  font-size: 200%;
+}
+
+@media all and (max-width: 1200px) {
+  .whoasia{
+      flex-direction: column;
+  }
+  .whoflex{
+      flex-direction: column;
+  }
+}
+
