@@ -608,7 +608,7 @@ footer{
 .gamecontainer {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%; 
   grid-template-rows: 33% 33% 33%;
   max-width: 300px;
 }
@@ -639,12 +639,13 @@ footer{
   width: 100px;
   height: 100px;
 }
+
 #reset{
   padding: 2%;
 }
 
 
-
+/* media query */
 
 @media all and (max-width: 600px) {
   .dev2 div { flex: 1; }
