@@ -78,7 +78,7 @@ Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_te
 - Layout of front page: https://platomedical.com/
 - Tic Tac Toe: https://dev.to/javascriptacademy/create-a-simple-tic-tac-toe-game-using-html-css-javascript-i4k
 - Map: https://youtu.be/OySigNMXOZU
-- 
+- Cards: https://www.w3schools.com/howto/howto_css_cards.asp
 
 
 
