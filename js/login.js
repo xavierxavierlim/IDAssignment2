@@ -1,15 +1,17 @@
-// Get the modal
-var modal = document.getElementById('login');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 
 
 $(document).ready(function () {
+
+    // Get the modal
+    var modal = document.getElementById('login');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 
     const APIKEY = "63ddca833bc6b255ed0c4632";
     //getContacts();
