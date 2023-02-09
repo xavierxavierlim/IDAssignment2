@@ -195,26 +195,32 @@ $(document).ready(function () {
         // Input validation
         if (name == "") {
             alert("Name cannot be empty");
+            $(".dots").hide();
             return;
         }
         if (username == "") {
             alert("Username cannot be empty");
+            $(".dots").hide();
             return;
         }
         if (password == "") {
             alert("Password cannot be empty");
+            $(".dots").hide();
             return;
         }
         if (password.length < 10) {
             alert("Password length must be 10 characters or more");
+            $(".dots").hide();
             return;
         }
         if (repeatPassword == "") {
             alert("Repeat password cannot be empty");
+            $(".dots").hide();
             return;
         }
         if (password != repeatPassword) {
             alert("Repeat password must match password");
+            $(".dots").hide();
             return;
         }
 

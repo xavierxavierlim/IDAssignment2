@@ -27,10 +27,12 @@ $(document).ready(function () {
         // Input validation
         if (username == "") {
             alert("Username cannot be empty");
+            $(".dots").hide();
             return;
         }
         if (password == "") {
             alert("Password cannot be empty");
+            $(".dots").hide();
             return;
         }
 
