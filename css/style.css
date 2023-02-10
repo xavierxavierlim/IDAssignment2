@@ -87,7 +87,7 @@ img.logo {
 
 /* Add Zoom Animation */
 .animate {
-  -webkit-animation: animatezoom 0.6s;
+  /* -webkit-animation: animatezoom 0.6s; */
   animation: animatezoom 0.6s
 }
   
@@ -572,17 +572,17 @@ footer{
   background: rgba(0,0,0,0.08);
 }
 
-.whoasia{
+.whonation{
   flex-direction: row;
   text-align: center;
   padding: 0.5%;
   justify-content: space-between;
   align-items: center;
-  display: center;
+  /* display: center; */
 }
 
 .whoflex{
-  display: center;
+  /* display: center; */
   flex-direction: column;
   justify-content: center;
 }
