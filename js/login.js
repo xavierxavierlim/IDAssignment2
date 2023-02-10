@@ -8,7 +8,7 @@ $(document).ready(function () {
         if (event.target == modal) {
             modal.style.display = "none";
         }
-    }
+    };
 
     const APIKEY = "63ddca833bc6b255ed0c4632";
 
@@ -72,6 +72,6 @@ $(document).ready(function () {
                 $("#password").val(""); // after submit empty out the boxes
                 return; 
             }
-        })
-    })  
-})
+        });
+    });  
+});

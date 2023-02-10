@@ -38,14 +38,14 @@ window.addEventListener('DOMContentLoaded', () => {
     // receive an index as a parameter and set the corresponding element in the board array to be the sign of our current player.
     const updateBoard =  (index) => {
         board[index] = currentPlayer;
-    }
+    };
 
     const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);   // change current player
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';          // become either playerX or playerO depending on the current player
         playerDisplay.innerText = currentPlayer;                    // change value of user
         playerDisplay.classList.add(`player${currentPlayer}`);      // add back current player back into list
-    }
+    };
 
     // announce winner announcer is hidden by default until the game ends
     const announce = (type) => {
@@ -119,15 +119,15 @@ window.addEventListener('DOMContentLoaded', () => {
         announcer.classList.add('hide');
     
         if (currentPlayer === 'O') {
-            changePlayer();
+            changePlayer(); // switches player
         }
     
         tiles.forEach(tile => {
             tile.innerText = '';
-            tile.classList.remove('playerX');
+            tile.classList.remove('playerX'); 
             tile.classList.remove('playerO');
         });
-    }
+    };
 
     // register this function as a click event handler for the reset button
     resetButton.addEventListener('click', resetBoard);
