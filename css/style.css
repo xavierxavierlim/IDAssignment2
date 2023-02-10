@@ -665,6 +665,27 @@ footer{
   transition-duration: 0.5s;
 }
 
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+lottie-player {
+  max-width: 300px; /* set a maximum width */
+  width: 100%; /* width will be 100% of its container */
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  display: block; /* display as a block element */
+  margin: 0 auto; /* center horizontally */
+}
+
 /* media query */
 
 @media all and (max-width: 600px) {
