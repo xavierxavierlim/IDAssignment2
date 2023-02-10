@@ -644,6 +644,26 @@ footer{
   padding: 2%;
 }
 
+.video{
+  width:560px;
+  height:315px;
+}
+
+.submitbutton{
+  display: block;
+  margin: 0 auto;
+  background-color: blue;
+  color:aliceblue;
+  padding: 1.5%;
+  border-radius: 10px;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 130%;
+}
+.submitbutton:hover{
+  background-color: aliceblue;
+  color:blue;
+  transition-duration: 0.5s;
+}
 
 /* media query */
 
@@ -719,4 +739,9 @@ footer{
   }
 }
 
+@media all and (max-width: 700px) {
+  .video{
+    width: 100%;
+  }
+}
 
