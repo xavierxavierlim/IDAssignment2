@@ -578,10 +578,12 @@ footer{
   height: 100px;
 }
 
+/* for reset button */
 #reset{
   padding: 2%;
 }
 
+/* style the youtube video */
 .video{
   width:560px;
   height:315px;
