@@ -534,6 +534,8 @@ footer{
   font-size: 200%;
 }
 
+/* use CSS grid to create the board. divide the container equally in three by providing 3 times 33% fo r both the columns and the rows */
+/* center the container in the middle by setting a maximum width */
 .gamecontainer {
   margin: 0 auto;
   display: grid;
@@ -542,6 +544,9 @@ footer{
   max-width: 300px;
 }
 
+/* apply a little white border, and set a minimum width and height of 100 pixels.  */
+/* center the content using flexbox */
+/* cursor let user know that this field is clickable */
 .tile {
   border: 1px solid black;
   min-width: 100px;
@@ -553,6 +558,8 @@ footer{
   cursor: pointer;
 }
 
+/* create player image */
+/* single image in box */
 .playerO {
   background-image:url("..//images/131-1319829_layers-of-the-earth-clipart-worksheets-earth-layers-clip-art.png");
   background-size: contain;
@@ -561,6 +568,8 @@ footer{
   height:100px;
 }
 
+/* create player image */
+/* single image in box */
 .playerX {
   background-image:url("..//images/virus.png");
   background-size: contain;
