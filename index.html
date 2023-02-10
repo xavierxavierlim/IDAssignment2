@@ -25,7 +25,29 @@
 
     <title>Home</title>
 
-    <script src="js/map.js" defer></script>
+    <style>
+        .dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        lottie-player {
+        max-width: 300px; /* set a maximum width */
+        width: 100%; /* width will be 100% of its container */
+        }
+        .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        input[type="submit"] {
+        display: block; /* display as a block element */
+        margin: 0 auto; /* center horizontally */
+        }
+
+    </style>
 </head>
 
 <body>
@@ -101,13 +123,15 @@
                                 <input type="password" id="password" class="repeat-password" placeholder="Enter Password" required>
                             </div>
 
-                            <input style="margin-left:48%" type="submit" value="Login" class="btn btn-primary" id="account-login">
+                            <div class="btn-container">
+                                <input type="submit" value="Login" class="btn btn-primary" id="account-login">
+                            </div>
 
                             <div class="padding:30px">
                                 <span>Don't have an account? Click <a href="html/signup.html" target="_blank"> HERE </a> to sign up!</span>
                             </div>
 
-                            <div style="margin-left:36%" class="dots">
+                            <div class="dots">
                                 <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_sjcbakkb.json"  background="transparent"  speed="1"  style="width:300px; height:300px;"  loop autoplay></lottie-player> 
                             </div>
                         </div>
