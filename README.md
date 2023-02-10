@@ -72,6 +72,10 @@ Face Shield - https://vitalshield.g.shopcadacdn.com/sites/files/vitalshield/prod
 
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
 
+Game (Earth) - https://www.pikpng.com/pngl/m/140-1406012_top-83-earth-clip-art-layers-of-earth.png
+
+Game (Virus) - https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMxzEUf-2-hGIOzjx0C3USDVNLuhD6jj4zcfkrSQWU5e0jkeg0
+
 # Credits - Acknowledgements
 - Login modal: https://www.w3schools.com/howto/howto_css_login_form.asp
 - Point system: https://shopee.sg/
