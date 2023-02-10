@@ -1,20 +1,20 @@
 
 // access key
-mapboxgl.accessToken = 'pk.eyJ1IjoiY3liZXJjYXQiLCJhIjoiY2xkbjNudWNvMGZpeTNwb3NpdXU3a3V6ciJ9.tdHX8TjZpQm9yGHvg_abBQ'
+mapboxgl.accessToken = 'pk.eyJ1IjoiY3liZXJjYXQiLCJhIjoiY2xkbjNudWNvMGZpeTNwb3NpdXU3a3V6ciJ9.tdHX8TjZpQm9yGHvg_abBQ';
 
 // create 2 different locations
 navigator.geolocation.getCurrentPosition
 (successLocation, errorLocation, {enableHighAccuracy: true}
-)
+);
 
 // get user's location
 function successLocation(position){
-    setupMap([position.coords.longitude, position.coords.latitude])
+    setupMap([position.coords.longitude, position.coords.latitude]);
 }
 
 // if error, use this location
 function errorLocation(){
-    setupMap([1.3521, 103.8198])
+    setupMap([1.3521, 103.8198]);
 }
 
 
@@ -29,11 +29,11 @@ function setupMap(center)
     });
 
     // add navigation to map
-    const nav = new mapboxgl.NavigationControl()
-    map.addControl(nav)
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav);
 
     var directions = new MapboxDirections({
         accessToken: mapboxgl.accessToken
-    })
-    map.addControl(directions,"top-left")
+    });
+    map.addControl(directions,"top-left");
 }
