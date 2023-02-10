@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Get the modal
     var modal = document.getElementById('login');
 
-    // close the modal when user clicks anywhere on it
+    // close the modal when user clicks anywhere outside the modal
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
