@@ -30,6 +30,14 @@ The website that we have created is a Covid website that aims to educate users o
 # Github URL
 https://github.com/xavierxavierlim/IDAssignment2.git
 
+# Wireframe URLs
+- Developers page - https://xd.adobe.com/view/8d2c5da3-9569-4a5a-b678-671d0c09bd75-d87f/
+- Front page - https://xd.adobe.com/view/75c7c4e5-00bc-4e9c-8600-83dc8fdea0db-2094/
+- Game page - https://xd.adobe.com/view/d2629dc0-429a-4e8d-ba6b-6bbfaced9547-8731/
+- Home page - https://xd.adobe.com/view/75269576-9264-435c-b8fe-82de332f2340-2075/
+- Quiz page - https://xd.adobe.com/view/84bc9dbe-01f4-446e-ae35-d9c042bcadca-d1ef/
+- Shop page - https://xd.adobe.com/view/7e67f189-f435-404e-ad81-568dbd9dd902-2b34/
+
 # Technologies Used
 - HTML is used for define the structure of the website.
 - CSS is used to style the website (i.e., add colours, padding, etc.)
@@ -40,7 +48,7 @@ https://github.com/xavierxavierlim/IDAssignment2.git
 - RestDB will be used to store user data when they login or sign up and also the points users earn from the quiz.
 
 # Testing
-All the features are working, except for the points feature. Validation is done for the login and sign up form such that if users login with a wrong username, non-existent username or wrong password or sign up with a username that already exists, an alert will be sent to them and they will not be allowed to login or sign up. Additionally, users cannot leave any field blank as well or an alert will pop up telling themm that they cannot leave the field blank. If they log in or sign up successfully, they will be directed to a home page.
+All the features are working, except for the points feature. Validation is done for the login and sign up form such that if users login with a wrong username, non-existent username or wrong password or sign up with a username that already exists or have the password not match the repeat password, an alert will be sent to them and they will not be allowed to login or sign up. Additionally, users cannot leave any field blank as well or an alert will pop up telling themm that they cannot leave the field blank. If they log in or sign up successfully, they will be directed to a home page. However, the API for 
 
 # Credits - Content
 
@@ -71,10 +79,6 @@ Tissue Packet - https://media.nedigital.sg/fairprice/fpol/media/images/product/X
 Face Shield - https://vitalshield.g.shopcadacdn.com/sites/files/vitalshield/productimg/202208/normalfsproductimage.jpg
 
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
-
-Game (Earth) - https://www.pikpng.com/pngl/m/140-1406012_top-83-earth-clip-art-layers-of-earth.png
-
-Game (Virus) - https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMxzEUf-2-hGIOzjx0C3USDVNLuhD6jj4zcfkrSQWU5e0jkeg0
 
 # Credits - Acknowledgements
 - Login modal: https://www.w3schools.com/howto/howto_css_login_form.asp
