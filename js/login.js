@@ -55,13 +55,13 @@ $(document).ready(function () {
                     exists = true; // if username and password match with the database 
                     $(".dots").hide(); // hide the lottie 
                     window.location = "../html/home.html"; // direct user to home page
-                    var nnname = response[i].Name;
-                    var points = response[i].Points;
-                    window.points = response[i].Points;
-                    window.nnname = response[i].Name;
-                    sessionStorage.setItem("Points",points);
-                    sessionStorage.setItem("Name",nnname);
-                    console.log(points);
+                    var nnname = response[i].Name; // take the name from the response array 
+                    var points = response[i].Points; // take the points from the response array 
+                    // window.points = response[i].Points; 
+                    // window.nnname = response[i].Name;
+                    sessionStorage.setItem("Points",points); // set the session storage points to the response points
+                    sessionStorage.setItem("Name",nnname); // set the session storage points to the response name
+                    // console.log(points); 
                 }
             }
 

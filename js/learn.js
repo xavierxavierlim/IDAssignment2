@@ -31,9 +31,9 @@ $(document).ready(function() {
   
       $.ajax(retrieveSettings).done(function (response) {
       // Parse the response to get the necessary values for "Name", "Username", and "Password"
-          let name = response[0].Name; // retrieve the name 
-          let username = response[0].Username; // retrieve the username 
-          let password = response[0].Password; // retrieve password
+          let name = response[0].Name; // retrieve the name from the response array
+          let username = response[0].Username; // retrieve the username from the response array
+          let password = response[0].Password; // retrieve password from the response array
       
           let jsondata = {
               "Name": name,

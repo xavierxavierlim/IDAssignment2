@@ -114,9 +114,9 @@ $(document).ready(function () {
 
                     //update our table 
                     //getContacts();
-                    var signinname = name
-                    sessionStorage.setItem("Name",signinname);
-                    console.log(signinname);
+                    var signinname = name                           // give a var to the input name
+                    sessionStorage.setItem("Name",signinname);      // set session storage with var "Name" to the input name
+                    // console.log(signinname);
                 });    
             }
         })
