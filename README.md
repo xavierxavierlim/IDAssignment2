@@ -62,7 +62,7 @@ Virus - https://www.tuvsud.com/-/media/global/images/home-page/ss-1161779041-cov
 
 Dettol hand sanitiser - https://gphb01pdazurefileshare.blob.core.windows.net/sys-master-hybris-media/h38/h54/16238771961886/130208-dettol-hand-sanitiser-orignal-50ml-1-800Wx800H
 
-Surgical mask box - hhttps://img.lovepik.com/desgin_photo/40189/7936_list.jpg
+Surgical mask box - https://img.lovepik.com/desgin_photo/40189/7936_list.jpg
 
 Hand soap - https://i5.walmartimages.com/asr/12ef0a67-9cbc-4797-82fb-17e557177198.8b1a04808123eff50b836a884acc4413.jpeg
 
@@ -79,6 +79,10 @@ Tissue Packet - https://media.nedigital.sg/fairprice/fpol/media/images/product/X
 Face Shield - https://vitalshield.g.shopcadacdn.com/sites/files/vitalshield/productimg/202208/normalfsproductimage.jpg
 
 Mahiru Shiina - https://cdn.donmai.us/sample/47/aa/__shiina_mahiru_otonari_no_tenshi_sama_ni_itsu_no_mani_ka_dame_ningen_ni_sarete_ita_ken_drawn_by_hanekoto__sample-47aa58258e245d66581857984c8745d7.jpg
+
+Game (Earth) - https://www.pikpng.com/pngl/m/140-1406012_top-83-earth-clip-art-layers-of-earth.png
+
+Game (Virus) - https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMxzEUf-2-hGIOzjx0C3USDVNLuhD6jj4zcfkrSQWU5e0jkeg0
 
 # Credits - Acknowledgements
 - Login modal: https://www.w3schools.com/howto/howto_css_login_form.asp
