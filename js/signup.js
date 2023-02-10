@@ -114,11 +114,11 @@ $(document).ready(function () {
 
                     //update our table 
                     //getContacts();
-                    var signinname = name                           // give a var to the input name
+                    var signinname = name;                           // give a var to the input name
                     sessionStorage.setItem("Name",signinname);      // set session storage with var "Name" to the input name
                     // console.log(signinname);
                 });    
             }
-        })
-    })
-})
+        });
+    });
+});
